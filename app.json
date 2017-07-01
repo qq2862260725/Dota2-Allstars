@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/test/test"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Dota2Allstars",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "发现",
+      "iconPath": "img/new.png",
+      "selectedIconPath": "img/snew.png"
+    },
+    {
+      "pagePath": "pages/test/test",
+      "iconPath": "img/user.png",
+      "selectedIconPath": "img/suser.png",
+      "text": "我"
+    }
+    ]
+  }
+}
